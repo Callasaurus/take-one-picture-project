@@ -27,7 +27,7 @@ export default function Home() {
           <div className="homepage-top-1">
             <p id="headers"> Contact us  </p>
             <p id="info-text"> If you’d like to learn more about how our Take One Picture projects work, don’t hesitate to reach out </p>
-            <button> <Link style={{ textDecoration: "none"}} href="/Components/Contact">Get in touch</Link> </button>
+            <button> <Link style={{ textDecoration: "none", color: "black"}} href="/Components/Contact">Get in touch</Link> </button>
           </div>
         </div>
         <div className="homepage-previous-paintings">
