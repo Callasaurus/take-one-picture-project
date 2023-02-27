@@ -10,10 +10,10 @@ export default function Navbar() {
                 <Link style={{ textDecoration: "none", color: "white" }} href="/"><Image id='logo-image' src={logo} alt=''/></Link>
             </div>
             <div className='navbar-links-right'>
-                <button> <Link style={{ textDecoration: "none"}} href="/Components/Current">TOP 2023</Link> </button>
-                <button> <Link style={{ textDecoration: "none"}} href="/Components/Previous">Previous projects</Link> </button>
-                <button> <Link style={{ textDecoration: "none"}} href="/Components/About">About</Link> </button>
-                <button> <Link style={{ textDecoration: "none"}} href="/Components/Contact">Contact</Link> </button>
+                <button> <Link style={{ textDecoration: "none", color: "black"}} href="/Components/Current">TOP 2023</Link> </button>
+                <button> <Link style={{ textDecoration: "none", color: "black"}} href="/Components/Previous">Previous projects</Link> </button>
+                <button> <Link style={{ textDecoration: "none", color: "black"}} href="/Components/About">About</Link> </button>
+                <button> <Link style={{ textDecoration: "none", color: "black"}} href="/Components/Contact">Contact</Link> </button>
             </div>
         </div>
     </div>

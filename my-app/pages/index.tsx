@@ -14,7 +14,7 @@ export default function Home() {
           <div className="homepage-top-1">
             <p id="headers"> Take These Paintings 2023  </p>
             <p id="info-text"> Featuring Kehinde Wiley and Henry Nelson O’Neil </p>
-            <button> <Link style={{ textDecoration: "none"}} href="/Components/Current">Find out more</Link> </button>
+            <button> <Link style={{ textDecoration: "none", color: "black"}} href="/Components/Current">Find out more</Link> </button>
           </div>
           <div className="homepage-top-2">
             <Image src={old} alt=''/>
