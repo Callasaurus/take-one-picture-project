@@ -10,34 +10,39 @@ import prev3 from '../Images/prev3.png'
 import prev4 from '../Images/prev4.jpg'
 import prev5 from '../Images/prev5.png'
 import prev6 from '../Images/prev6.png'
+import { FadeInSection } from "./Components/FadeInSection";
 
 export default function Home() {
   return [
     <Navbar key='navbar'/>,
     <div key="homepage" className="app-container">
-      <div className="homepage-container">
-        <div className="homepage-top-container">
-          <div className="homepage-top-1">
+      <div className="home-container">
+        <FadeInSection>
+        <div className="component-top-container">
+          <div className="component-top-1">
             <p id="headers"> Take These Paintings 2023  </p>
             <p id="info-text"> Featuring Kehinde Wiley and Henry Nelson O’Neil </p>
             <button> <Link style={{ textDecoration: "none", color: "black"}} href="/Components/Current">Find out more</Link> </button>
           </div>
-          <div className="homepage-top-2">
+          <div className="component-top-2">
             <Image src={old} alt=''/>
           </div>
         </div>
-        <div className="homepage-top-container">
-          <div className="homepage-top-2">
+        <div className="component-top-container">
+          <div className="component-top-2">
             <Image src={newer} alt=''/>
           </div>
-          <div className="homepage-top-1">
+          <div className="component-top-1">
             <p id="headers"> Contact us  </p>
             <p id="info-text"> If you’d like to learn more about how our Take One Picture projects work, don’t hesitate to reach out </p>
             <button> <Link style={{ textDecoration: "none", color: "black"}} href="/Components/Contact">Get in touch</Link> </button>
           </div>
         </div>
+        </FadeInSection>
+        
         <div className="homepage-previous-paintings">
           <p> Previous paintings </p>
+          <FadeInSection>
           <div className="homepage-paintings">
             <Image onClick={() => { window.open("https://en.wikipedia.org/wiki/An_Experiment_on_a_Bird_in_the_Air_Pump", "_blank")?.focus(); }} src={prev1} alt=''/>
             <Image onClick={() => { window.open("https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-a-roman-triumph", "_blank")?.focus(); }} src={prev2} alt=''/>
@@ -46,7 +51,9 @@ export default function Home() {
             <Image onClick={() => { window.open("https://www.nationalgallery.org.uk/paintings/georges-seurat-bathers-at-asnieres", "_blank")?.focus(); }} src={prev5} alt=''/>
             <Image onClick={() => { window.open("https://www.nationalgallery.org.uk/paintings/pintoricchio-penelope-with-the-suitors", "_blank")?.focus(); }} src={prev6} alt=''/>
           </div>
+          </FadeInSection>
         </div>
+        
         <Footer/>
       </div>
     </div>
