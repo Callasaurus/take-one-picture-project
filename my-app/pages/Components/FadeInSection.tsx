@@ -34,3 +34,5 @@ export const FadeInSection: React.FC<Props> = ({ children }) => {
     </div>
   );
 };
+
+export default FadeInSection;
