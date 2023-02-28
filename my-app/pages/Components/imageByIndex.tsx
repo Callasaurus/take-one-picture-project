@@ -7,8 +7,9 @@ import car6 from '../../Images/car6.png'
 import car7 from '../../Images/car7.png'
 import car8 from '../../Images/car8.png'
 import car9 from '../../Images/car9.png'
+import car10 from '../../Images/car10.png'
 
-export const images: any[] = [car1, car2, car3, car4, car5, car6, car7, car8, car9]
+export const images: any[] = [car1, car2, car3, car4, car5, car6, car7, car8, car9, car10]
 
 const imageByIndex = (index: number): string => images[index % images.length]
 
