@@ -9,8 +9,6 @@ const OPTIONS: EmblaOptionsType = {}
 const SLIDE_COUNT = 10
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
-// hi
-
 export default function About() {
   return [
     <Navbar key='navbar'/>,

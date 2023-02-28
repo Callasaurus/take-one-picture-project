@@ -34,3 +34,5 @@ export const Thumb: React.FC<PropType> = (props) => {
     </div>
   )
 }
+
+export default Thumb;
