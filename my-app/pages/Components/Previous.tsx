@@ -1,10 +1,10 @@
-import Navbar from "./Navbar"
+import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Image from "next/image";
-import angela from '../../Images/angela.jpg'
-import plants from '../../Images/plants.jpg'
-import who from '../../Images/who.jpg'
-import jade from '../../Images/jade.webp'
+import angela from '../../Images/angela.jpg';
+import plants from '../../Images/plants.jpg';
+import who from '../../Images/who.jpg';
+import jade from '../../Images/jade.webp';
 import Link from "next/link";
 
 export default function Previous() {

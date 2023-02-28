@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '../../Images/logo.png'
+import logo from '../../Images/logo.png';
 
 export default function Navbar() {
   return (

@@ -4,6 +4,12 @@ import Link from "next/link";
 import Image from "next/image";
 import old from '../Images/old.jpg';
 import newer from '../Images/newer.jpg';
+import prev1 from '../Images/prev1.jpg'
+import prev2 from '../Images/prev2.png'
+import prev3 from '../Images/prev3.png'
+import prev4 from '../Images/prev4.jpg'
+import prev5 from '../Images/prev5.png'
+import prev6 from '../Images/prev6.png'
 
 export default function Home() {
   return [
@@ -33,12 +39,12 @@ export default function Home() {
         <div className="homepage-previous-paintings">
           <p> Previous paintings </p>
           <div className="homepage-paintings">
-            <Image src={old} alt=''/>
-            <Image src={old} alt=''/>
-            <Image src={old} alt=''/>
-            <Image src={old} alt=''/>
-            <Image src={old} alt=''/>
-            <Image src={old} alt=''/>
+            <Image onClick={() => { window.open("https://en.wikipedia.org/wiki/An_Experiment_on_a_Bird_in_the_Air_Pump", "_blank")?.focus(); }} src={prev1} alt=''/>
+            <Image onClick={() => { window.open("https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-a-roman-triumph", "_blank")?.focus(); }} src={prev2} alt=''/>
+            <Image onClick={() => { window.open("https://www.nationalgallery.org.uk/paintings/george-bellows-men-of-the-docks", "_blank")?.focus(); }} src={prev3} alt=''/>
+            <Image onClick={() => { window.open("https://www.wikiart.org/en/thomas-gainsborough/mr-and-mrs-andrews-1749", "_blank")?.focus(); }} src={prev4} alt=''/>
+            <Image onClick={() => { window.open("https://www.nationalgallery.org.uk/paintings/georges-seurat-bathers-at-asnieres", "_blank")?.focus(); }} src={prev5} alt=''/>
+            <Image onClick={() => { window.open("https://www.nationalgallery.org.uk/paintings/pintoricchio-penelope-with-the-suitors", "_blank")?.focus(); }} src={prev6} alt=''/>
           </div>
         </div>
         <Footer/>

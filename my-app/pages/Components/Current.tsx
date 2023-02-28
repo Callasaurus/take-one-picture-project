@@ -1,10 +1,10 @@
-import Navbar from "./Navbar"
-import Footer from "./Footer"
-import Image from "next/image"
-import old from '../../Images/old.jpg'
-import newer from '../../Images/newer.jpg'
-import kehinde from '../../Images/kehinde.webp'
-import henry from '../../Images/henry.jpg'
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import Image from "next/image";
+import old from '../../Images/old.jpg';
+import newer from '../../Images/newer.jpg';
+import kehinde from '../../Images/kehinde.webp';
+import henry from '../../Images/henry.jpg';
 
 export default function Current() {
   return [
