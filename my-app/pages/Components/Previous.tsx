@@ -22,7 +22,7 @@ export default function Previous() {
         <div className="component-top-container">
             <div className="component-top-1">
               <p id="headers"> Take This Planet  </p>
-              <p id="info-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies nec dui imperdiet faucibus. Ut eget pellentesque tellus. Fusce et orci vel nisl auctor accumsan. Vivamus et nulla vitae felis porta consequat. Cras eu varius diam. Nullam a aliquet risus, placerat facilisis enim.  </p>
+              <p id="info-text"> In 2022, we aimed to empower Kilmorie children with the knowledge of the climate crisis, the effects this will have within our own community and how our actions can shape the future. The project focused on plants in light of the changing climate and what we can do to help them adapt and survive.  </p>
             </div>
             <div className="component-top-2">
               <Image src={plants} alt=''/>
@@ -34,7 +34,7 @@ export default function Previous() {
           </div>
           <div className="component-top-1">
             <p id="headers"> Angela Wright </p>
-            <p id="info-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies nec dui imperdiet faucibus. Ut eget pellentesque tellus. Fusce et orci vel nisl auctor accumsan. Vivamus et nulla vitae felis porta consequat. Cras eu varius diam. Nullam a aliquet risus, placerat facilisis enim.  </p>
+            <p id="info-text"> Angela is an installation artist and makes work that is site-specific and relates to its environment. She draws on nature for inspiration. Her work includes a woven cocoon/safe haven made from twigs which she installed in the garden if Southwark Cathedral.  </p>
           </div>
         </div>
         
@@ -53,14 +53,14 @@ export default function Previous() {
               <Image src={who} alt=''/>
             </div>
             <div className="component-top-1">
-              <p id="headers"> Take This Planet  </p>
-              <p id="info-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies nec dui imperdiet faucibus. Ut eget pellentesque tellus. Fusce et orci vel nisl auctor accumsan. Vivamus et nulla vitae felis porta consequat. Cras eu varius diam. Nullam a aliquet risus, placerat facilisis enim.  </p>
+              <p id="headers"> Take This Picture  </p>
+              <p id="info-text"> In 2021, we wanted to ensure that we diversified our summer art project and we wanted to look for a living artist who lived in or near our community. An artist who our children could relate to. The project focused on the idea of identity and self-reflection.   </p>
             </div>
         </div>
         <div className="component-top-container">
           <div className="component-top-1">
             <p id="headers"> Jadé Fadojutimi </p>
-            <p id="info-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies nec dui imperdiet faucibus. Ut eget pellentesque tellus. Fusce et orci vel nisl auctor accumsan. Vivamus et nulla vitae felis porta consequat. Cras eu varius diam. Nullam a aliquet risus, placerat facilisis enim.  </p>
+            <p id="info-text"> Jadé grew up in East London and attended the Slade School of Art and The Royal College of Art. She has exhibited across the world and in 2020, she became the youngest artist ever to have work in the permanent collection of the Tate Gallery.  </p>
           </div>
           <div className="component-top-2">
             <Image src={jade} alt=''/>

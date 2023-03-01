@@ -30,7 +30,7 @@ export default function Contact() {
           <FadeInSection>
             <div className="about-top-container">
               <p id="headers-current"> Contact us </p>
-              <p id="headers-current-info"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies nec dui imperdiet faucibus. Ut eget pellentesque tellus. Fusce et orci vel nisl auctor accumsan. Vivamus et nulla vitae felis porta consequat. Cras eu varius diam. Nullam a aliquet risus, placerat facilisis enim. Fusce rhoncus, eros vel lacinia lobortis, eros elit fermentum enim, id vehicula mi mi ac ante. Nulla facilisi. Nunc id egestas lorem, at malesuada augue. </p>
+              <p id="headers-current-info"> We believe that Take One Picture projects can have a long-lasting and positive impact on the educational and societal development of children. If you would like to reach out for information or to discuss any potential ideas, feel free to contact us below. </p>
             </div>
           </FadeInSection>
 
