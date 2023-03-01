@@ -4,12 +4,12 @@ import Link from "next/link";
 import Image from "next/image";
 import old from '../Images/old.jpg';
 import newer from '../Images/newer.jpg';
-import prev1 from '../Images/prev1.jpg'
-import prev2 from '../Images/prev2.png'
-import prev3 from '../Images/prev3.png'
-import prev4 from '../Images/prev4.jpg'
-import prev5 from '../Images/prev5.png'
-import prev6 from '../Images/prev6.png'
+import prev1 from '../Images/prev1.jpg';
+import prev2 from '../Images/prev2.png';
+import prev3 from '../Images/prev3.png';
+import prev4 from '../Images/prev4.jpg';
+import prev5 from '../Images/prev5.png';
+import prev6 from '../Images/prev6.png';
 import { FadeInSection } from "./Components/FadeInSection";
 
 export default function Home() {

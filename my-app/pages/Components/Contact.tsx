@@ -35,14 +35,21 @@ export default function Contact() {
           </FadeInSection>
 
           <FadeInSection>
-              <form className='form-contact' ref={form} onSubmit={sendEmail}>
+              <form className='form' ref={form} onSubmit={sendEmail}>
+                <h2>CONTACT US</h2>
                   <label>Name</label>
-                  <input type="text" name="user_name" />
+                  <input type="text" name="user_name" placeholder="Write your name here..." />
                   <label>Email</label>
-                  <input type="email" name="user_email" />
+                  <input type="email" name="user_email" placeholder="Let us know how to contact you back..." />
                   <label>Message</label>
-                  <textarea name="message" />
-                  <button type="submit" value="Send">Submit</button>
+                  <textarea name="message" placeholder="What would you like to tell us..." />
+                  <div className='contact-button-container'>
+                    <button type="submit" value="Send">Submit</button>
+                  </div>
+                  <div className='form-span'>
+                    <span></span> 📱07718089174
+                    <span></span> 📧 c.sullivandrage@outlook.com
+                </div>
               </form>
           </FadeInSection>
 

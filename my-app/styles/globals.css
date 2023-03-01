@@ -366,59 +366,96 @@
   padding-top: 30px;
 }
 
-.form-contact {
+.form{
   display: flex;
   flex-direction: column;
-  width: 80%;
-  align-items: center;
-  justify-content: center;
+  width: 60%;
+  height:440px;
   background-color: #eeeeee;
-  border-radius: 5px;
-  height: 550px;
-  gap: 10px;
-  margin: auto;
+  border-radius:8px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 15px 30px, rgba(0, 0, 0, 0.105) 0px 2px 2px;
+  margin: auto;
+  padding:20px 30px;
+  box-sizing:border-box;
+  position:relative;
   margin-bottom: 40px;
+  gap: 10px;
 }
 
-.form-contact input {
-  width: 80%;
-  height: 50px;
-  border-radius: 5px;
-  border: none;
-  font-size: large;
+h2 {
+  margin:10px 0;
+  padding-bottom:10px;
+  width:180px;
+  color:#78788c;
+  border-bottom:3px solid #78788c
 }
 
-.form-contact textarea {
-  width: 80%;
-  height: 200px;
-  border-radius: 5px;
-  border: none;
-  font-size: large;
+.form input {
+  width:100%;
+  padding:10px;
+  box-sizing:border-box;
+  background:none;
+  outline:none;
+  resize:none;
+  border:0;
+  transition:all .3s;
+  border-bottom:2px solid #bebed2
 }
 
-.form-contact label {
-  text-align: center;
-  font-weight: bold;
-  font-size: x-large;
+.form textarea {
+  width:100%;
+  padding:10px;
+  box-sizing:border-box;
+  background:none;
+  outline:none;
+  resize:none;
+  border:0;
+  transition:all .3s;
+  border-bottom:2px solid #bebed2
 }
 
-.form-contact button {
-  width: 80%;
-  background-color: white;
-  border: none;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 15px 30px, rgba(0, 0, 0, 0.22) 0px 5px 5px;
-  height: 40px;
-  font-size: x-large;
-  cursor: pointer;
-  font-weight: bold;
-  margin-top: 10px;
+.form input:focus {
+  border-bottom:2px solid #78788c
 }
 
-.form-contact button:hover {
-  background-color: rgba(255, 255, 255, 0.486);
- }
+.form button {
+  padding:8px 12px;
+  margin:8px 0 0;
+  border:2px solid #78788c;
+  background:0;
+  color:#5a5a6e;
+  cursor:pointer;
+  transition:all .3s; 
+  width: 30%
+}
+
+.contact-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+form button:hover {
+  background:#78788c;
+  color:#fff
+}
+
+.form-span {
+  content:'Hi';
+  position:absolute;
+  bottom:-15px;
+  right:-20px;
+  background:#50505a;
+  color:#fff;
+  width:370px;
+  padding:16px 4px 16px 0;
+  border-radius:6px;
+  font-size:13px;
+  box-shadow:10px 10px 40px -14px #000
+}
+
+.form span {
+  margin:0 5px 0 15px
+}
 
 
 /*  CAROUSEL CSS */
@@ -527,3 +564,5 @@
   transform: none;
   visibility: visible;
 }
+
+
