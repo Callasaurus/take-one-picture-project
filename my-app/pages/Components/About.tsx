@@ -7,7 +7,7 @@ import lisa from '../../Images/lisa.jpg'
 import { FadeInSection } from "./FadeInSection";
 
 const OPTIONS: EmblaOptionsType = {}
-const SLIDE_COUNT = 10
+const SLIDE_COUNT = 17
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
 export default function About() {
