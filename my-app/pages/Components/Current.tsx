@@ -74,6 +74,7 @@ export default function Current() {
         </FadeInSection>
         
         <Footer/>
+
        </div>
     </div>
   ]

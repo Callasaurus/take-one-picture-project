@@ -40,7 +40,7 @@ export default function About() {
           </div>
           </FadeInSection>
 
-          <Footer/>
+          <Footer/>        
         </div>
     </div>
   ]

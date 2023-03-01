@@ -180,6 +180,7 @@
   cursor: pointer;
   text-decoration: none;
   width: 30%;
+  font-weight: bold;
 }
 
 .navbar-links button:hover {
@@ -352,6 +353,74 @@
   height: auto;
 }
 
+/* CONTACT CSS */
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding-top: 30px;
+}
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  height: 550px;
+  gap: 10px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 15px 30px, rgba(0, 0, 0, 0.105) 0px 2px 2px;
+  margin-bottom: 40px;
+}
+
+.form-contact input {
+  width: 80%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-size: large;
+}
+
+.form-contact textarea {
+  width: 80%;
+  height: 200px;
+  border-radius: 5px;
+  border: none;
+  font-size: large;
+}
+
+.form-contact label {
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.form-contact button {
+  width: 80%;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 15px 30px, rgba(0, 0, 0, 0.22) 0px 5px 5px;
+  height: 40px;
+  font-size: x-large;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.form-contact button:hover {
+  background-color: rgba(255, 255, 255, 0.486);
+ }
+
+
 /*  CAROUSEL CSS */
 
 .embla {
@@ -460,7 +529,7 @@
 
 .fade-in-section {
   opacity: 0;
-  transform: translateY(20vh);
+  transform: translateY(15vh);
   visibility: hidden;
   transition: opacity 0.6s ease-out, transform 1.2s ease-out;
   will-change: opacity, visibility;

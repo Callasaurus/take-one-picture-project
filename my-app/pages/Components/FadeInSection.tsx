@@ -9,7 +9,6 @@ export const FadeInSection: React.FC<Props> = ({ children }) => {
   const documentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    console.log(1);
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         setVisible(entry.isIntersecting);

@@ -43,11 +43,11 @@ export default function Previous() {
         </div>
       </FadeInSection>
 
+      <FadeInSection>
         <div className="previous-middle-container">
           <p id="headers-current"> 2021: Take This Picture </p>
         </div>
 
-      <FadeInSection>
         <div className="component-top-container">
             <div className="component-top-2">
               <Image src={who} alt=''/>
@@ -67,13 +67,12 @@ export default function Previous() {
           </div>
         </div>
         
-        
         <div className="previous-button">
           <button> <Link style={{ textDecoration: "none", color: "black"}} href="/ttp2021.pdf" target="_blank">Read full TTP 2021 presentation</Link> </button>
         </div>
       </FadeInSection>
 
-        <Footer/>
+      <Footer/>
       </div>
     </div>
   ]

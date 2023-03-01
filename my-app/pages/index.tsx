@@ -40,9 +40,9 @@ export default function Home() {
         </div>
         </FadeInSection>
         
+        <FadeInSection>
         <div className="homepage-previous-paintings">
           <p> Previous paintings </p>
-          <FadeInSection>
           <div className="homepage-paintings">
             <Image onClick={() => { window.open("https://en.wikipedia.org/wiki/An_Experiment_on_a_Bird_in_the_Air_Pump", "_blank")?.focus(); }} src={prev1} alt=''/>
             <Image onClick={() => { window.open("https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-a-roman-triumph", "_blank")?.focus(); }} src={prev2} alt=''/>
@@ -51,8 +51,8 @@ export default function Home() {
             <Image onClick={() => { window.open("https://www.nationalgallery.org.uk/paintings/georges-seurat-bathers-at-asnieres", "_blank")?.focus(); }} src={prev5} alt=''/>
             <Image onClick={() => { window.open("https://www.nationalgallery.org.uk/paintings/pintoricchio-penelope-with-the-suitors", "_blank")?.focus(); }} src={prev6} alt=''/>
           </div>
-          </FadeInSection>
         </div>
+        </FadeInSection>
         
         <Footer/>
       </div>
