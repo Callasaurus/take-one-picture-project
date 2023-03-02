@@ -200,7 +200,7 @@
 }
 
 .navbar-links-left {
-  width: 40%;
+  width: 30%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -237,14 +237,16 @@
 
 @media (max-width: 1000px) {
   #logo-image {
-    width: 25%;
-    height: 25%;
+    width: 23%;
+    height: 23%;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .navbar-links-right button {
     font-size: medium;
   }
+}
+@media (max-width: 600px) {
   #logo-image {
     width: 35%;
     height: 35%;
