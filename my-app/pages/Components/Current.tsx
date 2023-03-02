@@ -6,6 +6,7 @@ import newer from '../../Images/newer.jpg';
 import kehinde from '../../Images/kehinde.webp';
 import henry from '../../Images/henry.jpg';
 import { FadeInSection } from "./FadeInSection";
+import Link from "next/link";
 
 export default function Current() {
   return [
@@ -16,7 +17,7 @@ export default function Current() {
           <div className="current-top-container">
             <p id="headers-current"> Take These Paintings 2023 </p>
             <p id="headers-current-info"> At Kilmorie, we became concerned at the suggested paintings by The National Gallery, because whilst they stimulate a huge and exciting variety of art work, the paintings themselves tend to be painted by white men for white men. Over the past few years we have tackled this issue by choosing our own artwork and topics to focus on, including diversity and identity. In 2023, we want to address another burning societal issue in our art project - the climate crisis.   </p>
-            <button> Read full TTP 2023 presentation</button>
+            <button> <Link style={{ textDecoration: "none", color: "black"}} href="/ttp2023.pdf" target="_blank">Read full TTP 2023 presentation</Link></button>
           </div>
           </FadeInSection>
 

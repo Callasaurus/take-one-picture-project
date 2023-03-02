@@ -5,6 +5,7 @@ import EmblaCarousel from './EmblaCarousel'
 import { EmblaOptionsType } from 'embla-carousel-react'
 import lisa from '../../Images/lisa.jpg'
 import { FadeInSection } from "./FadeInSection";
+import Link from "next/link";
 
 const OPTIONS: EmblaOptionsType = {}
 const SLIDE_COUNT = 17
@@ -33,7 +34,8 @@ export default function About() {
           <div className="component-top-container">
             <div className="component-top-1">
               <p id="headers"> Lisa Drage </p>
-              <p id="info-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies nec dui imperdiet faucibus. Ut eget pellentesque tellus. Fusce et orci vel nisl auctor accumsan. Vivamus et nulla vitae felis porta consequat. Cras eu varius diam. Nullam a aliquet risus, placerat facilisis enim. </p>
+              <p id="info-text"> Lisa has taken a lead role in organising the Take One Picture projects at Kilmorie. She has a History of Art degree and is passionate about enriching primary education with with artistic and creative expression.  </p>
+              <button> <Link style={{ textDecoration: "none", color: "black"}} href="/Components/Contact">Contact</Link> </button>
             </div>
             <div className="component-top-2">
               <Image src={lisa} alt=''/>

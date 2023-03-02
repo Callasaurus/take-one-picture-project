@@ -122,6 +122,44 @@
   cursor: pointer;
 }
 
+@media (max-width: 1100px) {
+  .component-top-1 {
+    height: 400px;
+  }
+  .component-top-2 img {
+    height: 400px;
+  }
+  #headers {
+    font-size: x-large;
+  }
+  #info-text {
+    font-size: large;
+  }
+  .component-top-1 button {
+    font-size: medium;
+    width: 40%;
+   }
+}
+@media (max-width: 800px) {
+  .component-top-1 {
+    height: 300px;
+  }
+  .component-top-2 img {
+    height: 300px;
+  }
+  .homepage-paintings {
+    flex-direction: column;
+  }
+  .homepage-paintings img {
+    width: 90%;
+  }
+}
+@media (max-width: 700px) {
+  .component-top-container {
+    flex-direction: column;
+  }
+}
+
 /* NAVBAR CSS */
 
 .navbar-container {
@@ -162,12 +200,17 @@
 }
 
 .navbar-links-left {
-  width: 30%;
+  width: 40%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
 }
+
+.navbar-links-left image {
+  width: 80%;
+}
+
 
 .navbar-links-right button {
   border: none;
@@ -190,6 +233,32 @@
 #logo-image {
   width: 15%;
   height: 15%;
+}
+
+@media (max-width: 1000px) {
+  #logo-image {
+    width: 25%;
+    height: 25%;
+  }
+}
+@media (max-width: 600px) {
+  .navbar-links-right button {
+    font-size: medium;
+  }
+  #logo-image {
+    width: 35%;
+    height: 35%;
+  }
+}
+@media (max-width: 600px) {
+  .navbar-links-right button {
+    font-size: small;
+  }
+}
+@media (max-width: 400px) {
+  .navbar-links-right button {
+    font-size: x-small;
+  }
 }
 
 
@@ -263,6 +332,48 @@
   margin-bottom: 30px;
 }
 
+@media (max-width: 1000px) {
+  .current-top-container button{
+    font-size: medium;
+  }
+  #headers-current {
+    font-size: x-large;
+  }
+  
+  #headers-current-info {
+    font-size: large;
+  }
+}
+@media (max-width: 900px) {
+  .current-top-container button{
+    width: 50%;
+  }
+}
+@media (max-width: 800px) {
+  #headers {
+    font-size: large;
+  }
+  #info-text {
+    font-size: medium;
+  }
+}
+@media (max-width: 450px) {
+  #headers {
+    font-size: medium;
+  }
+  #info-text {
+    font-size: small;
+  }
+  #headers-current {
+    font-size: large;
+  }
+  
+  #headers-current-info {
+    font-size: medium;
+  }
+}
+
+
 /* PREVIOUS CSS */
 
 .previous-container {
@@ -318,6 +429,19 @@
   background-color: rgb(207, 205, 205)
  }
 
+ @media (max-width: 1000px) {
+  .previous-container button{
+    width: 50%;
+    font-size: medium;
+  }
+}
+@media (max-width: 600px) {
+  .previous-container button{
+    width: 60%;
+    font-size: small;
+  }
+}
+
  /* ABOUT CONTAINER */
 
  .about-container {
@@ -352,6 +476,7 @@
   width: 100%;
   height: auto;
 }
+
 
 /* CONTACT CSS */
 
@@ -440,24 +565,19 @@ form button:hover {
   color:#fff
 }
 
-.form-span {
-  content:'Hi';
-  position:absolute;
-  bottom:-15px;
-  right:-20px;
-  background:#50505a;
-  color:#fff;
-  width:370px;
-  padding:16px 4px 16px 0;
-  border-radius:6px;
-  font-size:13px;
-  box-shadow:10px 10px 40px -14px #000
+@media (max-width: 700px) {
+  .form button {
+    width: 40%
+  }
+  .form{
+    width: 80%;
+  }
 }
-
-.form span {
-  margin:0 5px 0 15px
+@media (max-width: 500px) {
+  .form button {
+    width: 60%
+  }
 }
-
 
 /*  CAROUSEL CSS */
 

@@ -46,10 +46,6 @@ export default function Contact() {
                   <div className='contact-button-container'>
                     <button type="submit" value="Send">Submit</button>
                   </div>
-                  <div className='form-span'>
-                    <span></span> 📱07718089174
-                    <span></span> 📧 c.sullivandrage@outlook.com
-                </div>
               </form>
           </FadeInSection>
 
@@ -57,7 +53,7 @@ export default function Contact() {
           <div className="component-top-container">
             <div className="component-top-1">
               <p id="headers"> Thanks for visiting </p>
-              <p id="info-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies nec dui imperdiet faucibus. Ut eget pellentesque tellus. Fusce et orci vel nisl auctor accumsan. Vivamus et nulla vitae felis porta consequat. Cras eu varius diam. Nullam a aliquet risus, placerat facilisis enim. </p>
+              <p id="info-text"> Thank you for visiting the site! We hope you enjoyed learning about our projects at Kilmorie and the Take One Picture programme as a whole.  </p>
             </div>
             <div className="component-top-2">
               <Image src={thankyou} alt=''/>
